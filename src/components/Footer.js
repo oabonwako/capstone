@@ -1,10 +1,10 @@
-import footerImg from '../assets/restaurant chef B.jpg';
+//import footerImg from '../assets/restaurant chef B.jpg';
 
 function Footer() {
     const styles = {
         display: 'flex',
-        justifyContent: 'space-around',
-        padding: '15px',
+        justifyContent: 'center',
+        padding: '35px',
         backgroundColor: 'grey',
     }
 
@@ -13,14 +13,9 @@ function Footer() {
         listStyleType: 'none',
     }
 
-    const imgstyle = {
-        width: '500px',
-        height: '400px',
-    }
-
     return(
         <footer style={styles}>
-            <div><img src={footerImg} alt='footer-img' style={imgstyle} /></div>
+            <div className='footer-img'></div>
             <div>
                 <h2>Doormat Navigation</h2>
                 <ul style={lists}>

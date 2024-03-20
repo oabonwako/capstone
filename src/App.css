@@ -28,6 +28,126 @@
   color: #61dafb;
 }
 
+footer > * {
+  margin: 15px;
+}
+
+.footer-img {
+  width: 400px;
+  height: 400px;
+  background-image: url('assets/restaurant\ chef\ B.jpg');
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #495e57;
+  padding: 15px;
+  margin-bottom: 100px;
+}
+
+.textbox {
+  height: 300px;
+  width: 300px;
+}
+
+.imagebox {
+  height: 300px;
+  width: 300px;
+  background-image: url('assets/restauranfood.jpg');
+  background-size: cover;
+}
+
+button {
+  background-color: #f4ce14;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+h1 {
+  color: #f4ce14
+}
+
+h2,p {
+  color: white
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+.headsection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headsection > button {
+  width: 150px;
+  height: 40px;
+}
+
+.headsection h2 {
+  font-size: 30pt;
+}
+
+.cardheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.headsection h2{
+  color: black;
+}
+
+.card-pic1 {
+  width: 400px;
+  height: 300px;
+  background-image: url('/src/assets/greek\ salad.jpg');
+  background-size: cover;
+}
+.card-pic2 {
+  width: 400px;
+  height: 300px;
+  background-image: url('/src/assets/bruchetta.png');
+  background-size: cover;
+}
+.card-pic3 {
+  width: 400px;
+  height: 300px;
+  background-image: url('/src/assets/lemon\ dessert.jpg');
+  background-size: cover;
+}
+
+.cardbody {
+  background-color: bisque;
+  width: 400px;
+  height: 600px;
+  margin: 8px;
+}
+
+.cardbody p {
+  color: black;
+}
+
+.cardbody a {
+  font-weight: 900;
+}
+
+.cardheader h4 {
+  color:black;
+}
+
+.cardheader h5 {
+  color:orange;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
