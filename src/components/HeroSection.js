@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function HeaderSection() {
+function HeroSection() {
     return(
         <div>
             <header>
@@ -19,4 +19,4 @@ function HeaderSection() {
     );
 }
 
-export default HeaderSection;
+export default HeroSection;

@@ -1,41 +1,47 @@
-function Main() {
-    return(
-        <main>
-                <article className="headsection">
-                    <h2>This Weeks Special!</h2>
-                    <button>Online Menu</button>
-                </article>
-                <article class="card-container">
-                        <div class="cardbody">
-                            <div className='card-pic1'></div>
-                            <div className='cardheader'>
-                                <h4>Greek Salad</h4>
-                                <h5>$12.00</h5>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque non risus vel ultricies. Vivamus velit augue, commodo eget hendrerit at, volutpat non neque. Donec sodales malesuada diam a varius. Aenean fringilla, sapien vel egestas varius, eros nibh scelerisque ipsum, ac ornare enim nulla molestie magna.</p>
-                            <a href='oabo.com'>Order a Delivery</a>
-                        </div>
-                        <div class="cardbody">
-                            <div className='card-pic2'></div>
-                            <div className='cardheader'>
-                                <h4>Bruchetta</h4>
-                                <h5>$12.00</h5>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque non risus vel ultricies. Vivamus velit augue, commodo eget hendrerit at, volutpat non neque. Donec sodales malesuada diam a varius. Aenean fringilla, sapien vel egestas varius, eros nibh scelerisque ipsum, ac ornare enim nulla molestie magna.</p>
-                            <a href='oabo.com'>Order a Delivery</a>
-                        </div>
-                        <div class="cardbody">
-                            <div className='card-pic3'></div>
-                            <div className='cardheader'>
-                                <h4>Lemon Dessert</h4>
-                                <h5>$12.00</h5>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque non risus vel ultricies. Vivamus velit augue, commodo eget hendrerit at, volutpat non neque. Donec sodales malesuada diam a varius. Aenean fringilla, sapien vel egestas varius, eros nibh scelerisque ipsum, ac ornare enim nulla molestie magna.</p>
-                            <a href='oabo.com'>Order a Delivery</a>
-                        </div>
-                    </article>
-            </main>
-    );
-};
+//import {useNavigate} from 'react-router-dom';
+//import { useReducer} from "react";
 
-export default Main;
+// function Main() {
+
+//     const seedRandom = function(seed){
+//         var m = 2**35 - 31;
+//         var a = 185852;
+//         var s = seed % m;
+//         return function(){
+//             return (s = s*a%m)/m;
+//         }
+//     }
+//     const fetchAPI = function(date) {
+//         let result = [];
+//         let random = seedRandom(date.getDate());
+//         for (let i = 17; i<= 23; i++) {
+//             if(random() < 0.5) {
+//                 result.push(i + ':00')
+//             }
+//             if(random() < 0.5) {
+//                 result.push(i + ':30')
+//             }
+//         }
+//         return true;
+//     };
+
+//     const submitAPI = function(formData) {
+//         return true;
+//     };
+
+//     const initialState = {availableTimes: fetchAPI(new Date())};
+//     const [state, dispatch] = useReducer(updateTimes, initialState);
+
+//     function updateTimes(state, date) {
+//         return {availableTimes: fetchAPI(new Date())}
+//     }
+
+//     const navigate = useNavigate();
+//     function submitForm(formData) {
+//         if(submitAPI(formData)) {
+//             navigate("/confirmed");
+//         }
+//     }
+// }
+
+//export default Main;

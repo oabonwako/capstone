@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+footer {
+  background-color: #495e57;
+}
+
 footer > * {
   margin: 15px;
 }
@@ -35,7 +39,7 @@ footer > * {
 .footer-img {
   width: 400px;
   height: 400px;
-  background-image: url('assets/restaurant\ chef\ B.jpg');
+  background-image: url('assets/greenlogo.jpg');
   background-size: cover;
 }
 
@@ -63,6 +67,12 @@ button {
   background-color: #f4ce14;
   border-radius: 10px;
   padding: 8px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #495e57;
+  color: white;
 }
 
 h1 {
@@ -148,6 +158,49 @@ a {
   color:orange;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 25%;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+form label,button {
+  margin-top: 25px;
+}
+
+label {
+  color: #495e57;
+  font-size: 16pt;
+}
+
+select,input {
+  height: 25px;
+  font-size: 12pt;
+}
+
+select:hover,input:hover {
+  background-color: #495e57;
+  color: white;
+}
+
+.form-header {
+  background-color: #495e57;
+}
+
+.form-header h6 {
+  color: white;
+  font-size: 20pt;
+  text-align: center;
+  padding: 10px;
+  height: 15px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -155,4 +208,28 @@ a {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media only screen and (max-width:768px) {
+
+  .card-container {
+      flex-direction: column;
+  }
+
+  nav,ul {
+    flex-direction: column;
+  }
+
+  .textbox {
+    height: 350px;
+  }
+
+  ul > * {
+    font-size: 8pt;
+  }
+
+  form {
+    width: 75%;
+  }
+
 }

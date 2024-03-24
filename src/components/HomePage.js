@@ -1,11 +1,15 @@
-import Main from './Main';
-import HeaderSection from './HeaderSection';
+import Highlights from './Highlights';
+import HeroSection from './HeroSection';
+import Testmonials from './Testimonials';
+import About from './About';
 
 function HomePage() {
     return(
         <div>
-            <HeaderSection/>
-            <Main/>
+            <HeroSection/>
+            <Highlights/>
+            <Testmonials/>
+            <About/>
         </div>
     );
 }

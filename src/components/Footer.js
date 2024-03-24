@@ -1,11 +1,10 @@
-//import footerImg from '../assets/restaurant chef B.jpg';
+import {Link} from 'react-router-dom';
 
 function Footer() {
     const styles = {
         display: 'flex',
         justifyContent: 'center',
         padding: '35px',
-        backgroundColor: 'grey',
     }
 
     const lists = {
@@ -17,12 +16,12 @@ function Footer() {
         <footer style={styles}>
             <div className='footer-img'></div>
             <div>
-                <h2>Doormat Navigation</h2>
+                <h2>Site Map</h2>
                 <ul style={lists}>
-                    <li><a href='oabo.com'>HOME</a></li>
+                    <Link to='/'><a href='oabo.com'>HOME</a></Link>
                     <li><a href='oabo.com'>ABOUT</a></li>
                     <li><a href='oabo.com'>MENU</a></li>
-                    <li><a href='oabo.com'>RESERVATIONS</a></li>
+                    <Link to='/booking'><a href='oabo.com'>RESERVATIONS</a></Link>
                     <li><a href='oabo.com'>ORDER ONLINE</a></li>
                     <li><a href='oabo.com'>LOGIN</a></li>
                 </ul>
